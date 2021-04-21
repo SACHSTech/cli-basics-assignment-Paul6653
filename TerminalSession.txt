@@ -1,1 +1,25 @@
-
+~/cli-basics-assignment-Paul6653$ pwd
+/home/runner/cli-basics-assignment-Paul6653
+~/cli-basics-assignment-Paul6653$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-Paul6653$ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+~/cli-basics-assignment-Paul6653$ cd CLIBasicsFolder
+~/cli-basics-assignment-Paul6653/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-assignment-Paul6653/CLIBasicsFolder$ cat myfile.txt
+Paul ICS4U1~/cli-basics-assignment-Paul6653/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-assignment-Paul6653/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-Paul6653/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-assignment-Paul6653/CLIBasicsFolder$ mv myfile2.txt home/myfile2.txt
+mv: cannot move 'myfile2.txt' to 'home/myfile2.txt': No such file or directory
+~/cli-basics-assignment-Paul6653/CLIBasicsFolder$ mv myfile2.txt home/runner/myfile2.txt
+mv: cannot move 'myfile2.txt' to 'home/runner/myfile2.txt': No such file or directory
+~/cli-basics-assignment-Paul6653/CLIBasicsFolder$ mv myfile2.txt ~/myfile2.txt
+~/cli-basics-assignment-Paul6653/CLIBasicsFolder$ ls ~
+cli-basics-assignment-Paul6653  myfile2.txt  _test_runner.py
+~/cli-basics-assignment-Paul6653/CLIBasicsFolder$ cd ..
+~/cli-basics-assignment-Paul6653$ rm CLIBasicsFolder/myfile.txt
+~/cli-basics-assignment-Paul6653$ rmdir CLIBasicsFolder
+~/cli-basics-assignment-Paul6653$ ls ~
+cli-basics-assignment-Paul6653  myfile2.txt  _test_runner.py
+~/cli-basics-assignment-Paul6653$ 
